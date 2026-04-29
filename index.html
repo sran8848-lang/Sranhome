@@ -13,16 +13,7 @@
   scroll-behavior: smooth;
 }
 
-body { 
-  <h1 style="text-align:center; font-family:sans-serif;">
-  SRAN GUEST HOUSE / PG
-</h1>
-
-<div style="max-width:900px; margin:20px auto;">
-  <img src="pg-menu.jpg.PNG" 
-       alt="Weekly Menu"
-       style="width:100%; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.2);">
-</div>
+body {
   font-family: 'Segoe UI', sans-serif;
   color: #333;
 
@@ -92,12 +83,13 @@ nav a {
   transform: scale(1.05);
 }
 
-/* CARDS */
+/* SECTION */
 .section {
   padding: 40px 20px;
   text-align: center;
 }
 
+/* CARD */
 .card {
   background: rgba(255,255,255,0.85);
   margin: 15px auto;
@@ -108,12 +100,13 @@ nav a {
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
-/* GALLERY */
-.gallery img {
-  width: 90%;
-  max-width: 300px;
-  margin: 10px;
-  border-radius: 12px;
+/* MENU IMAGE */
+.menu-img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  margin-top: 20px;
 }
 
 /* FOOTER */
@@ -142,10 +135,11 @@ footer {
 <body>
 
 <header>
-  Sran Guest House 🏡
+  SRAN GUEST HOUSE 🏡
   <nav>
     <a href="#home">Home</a>
     <a href="#rooms">Rooms</a>
+    <a href="#menu">Menu</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -188,14 +182,11 @@ footer {
   </div>
 </section>
 
-<!-- GALLERY -->
-<section class="section gallery">
-  < <h1>SRAN GUEST HOUSE / PG</h1>
+<!-- MENU SECTION -->
+<section class="section" id="menu">
+  <h2>Weekly Food Menu 🍽️</h2>
 
-<div style="max-width:850px; margin:30px auto;">
-  <img src="pg-menu.jpg.PNG" alt="Weekly Menu"
-       style="width:100%; border-radius:14px; box-shadow:0 8px 25px rgba(0,0,0,0.15);">
-</div> >
+  <img src="pg-menu.jpg.PNG" alt="Weekly Menu" class="menu-img">
 </section>
 
 <!-- CONTACT -->
@@ -214,10 +205,10 @@ footer {
 </section>
 
 <footer>
-  © 2026 Sran Guest House 💖
+  © 2026 SRAN GUEST HOUSE 💖
 </footer>
 
-<!-- FLOAT BUTTON -->
+<!-- WHATSAPP FLOAT -->
 <a class="whatsapp" href="https://wa.me/917610844801">💬</a>
 
 </body>
